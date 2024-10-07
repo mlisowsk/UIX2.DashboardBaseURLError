@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.m-files.com/schemas/appdef-client-v5.xsd">
+	<guid>deece7e7-4a8a-470f-89ba-d898ee4e5929</guid>
+	<name>Dashboard with wrong BASE tag Error</name>
+	<version>0.1</version>
+	<description>Demonstrating a bug with BASE URL in UIXv2 dashboards.</description>
+	<publisher>M-Files Corporation</publisher>
+	<enabled-by-default>true</enabled-by-default>
+	<modules>
+		<module environment="shellui">
+			<file>shellui.js</file>
+		</module>
+	</modules>
+	<dashboards>
+		<dashboard id="MyDashboard">
+			<content>folder/index.html</content>
+		</dashboard>
+	</dashboards>
+</application>

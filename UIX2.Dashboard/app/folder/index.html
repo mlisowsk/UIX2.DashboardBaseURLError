@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>My Dashboard</title>
+    <meta charset="utf-8" />
+    <script src="mfiles.extensibility.protocol.js"></script>
+</head>
+<body>
+    <div id="root">
+        <h2>Welcome to M-Files!</h2>
+        Clicking the this <a href="#gohere">link</a> will trigger an error in M-Files. The link points to the next section on this page using an URL that contains only a fragment.
+        <p>
+            The following <a href="index.html#gohere">link</a> is a relative URL. It works only if this (the dashboard's) HTML file is located in the application's root folder.
+        <p>
+    </div>
+    <div id="gohere">
+        <h2>Section Two</h2>
+        This is section 2.
+    </div>
+</body>
+</html>
